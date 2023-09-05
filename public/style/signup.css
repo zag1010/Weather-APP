@@ -1,0 +1,113 @@
+body {
+    /* background-image: url('backgroundimage.jpeg'); */
+    /* box-sizing: border-box; */
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+main {
+    padding: .6rem 7% 2rem;
+    background-image: url('');
+}
+
+
+.content .sign-up-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    /* gap: 2rem; */
+    /* flex-wrap: nowrap; */
+}
+
+.sign-up-content-topic h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.sign-up-content-topic h3 span {
+    color: skyblue;
+}
+
+.sign-up-content-topic p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.sign-up-content-topic p span {
+    color: skyblue;
+}
+
+.sign-up-content-heading h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: -.6rem;
+    color: skyblue;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* .sign-up-content-heading {
+    text-align: center;
+} */
+
+.sign-up-content-left .sign-up-content-image img {
+    width: 60%;
+    /* padding-top: -5rem; */
+}
+
+.content .sign-up-content .sign-up-here {
+    /* border: 2px solid white; */
+    /* background-color: skyblue; */
+    padding-right: 20px;
+    /* width: 100%; */
+    flex-basis: 60%;
+    min-width: 60%;
+    padding: 3rem;
+    /* margin-top: 1rem; */
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 1rem black;
+}
+
+/* .content .sign-up-content .sign-up-form form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+} */
+
+.content .sign-up-content .sign-up-here form input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content .sign-up-content .sign-up-here form input[type=submit]{
+    background: rgb(17, 157, 204);
+    border: none;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 700;
+}
+
+.content .sign-up-content .sign-up-here form input:focus {
+    border: 2px solid grey;
+}
+
+/* .content .sign-up-content .sign-up-form form label {
+    color: white;
+    font-size: 1.2rem;
+} */
+
+form p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+form p a{
+    color: #a9d7ff;
+}

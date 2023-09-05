@@ -1,0 +1,224 @@
+body {
+    /* background-image: url('backgroundimage.jpeg'); */
+    /* box-sizing: border-box; */
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.nav {
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.nav a span {
+    color: black;
+    /* border: 2px solid ; */
+    border-radius: 2px;
+    background: white;
+    font-size: 1.2rem;
+    padding: .4rem;
+}
+
+.navbar {
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-color: rgb(31, 30, 30);
+    box-shadow: 0 .1rem 2rem black;
+    position: fixed;
+    /* z-index: 2; */
+    /* background-color: rgb(31, 30, 30); */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    /* flex-direction: l; */
+    text-align: right;
+    padding-right: 2rem;
+    /* gap: 1rem; */
+    /* text-align: right; */
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-align: center;
+    /* text-align: right; */
+    /* padding-right: 10px; */
+}
+
+.navbar li {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+main {
+    padding: 5rem 7% 2rem;
+    background-image: url('');
+}
+
+.main-left .image img {
+    width: 90%;
+    /* padding-top: -5rem; */
+}
+
+.content .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+}
+
+.main-left-content {
+    display: flex;
+    gap: 2rem;
+    padding-top: rem;
+    line-height: 1rem;
+    /* color: skyblue; */
+}
+
+.main-left-left {
+    color: skyblue;
+}
+
+.main-left-right {
+    color: white;
+}
+
+.main-left-left h1 {
+    font-size: 3rem;
+}
+
+.main-right-top {
+    line-height: 1rem;
+}
+
+.main-left-right h1 {
+    font-size: 6rem;
+}
+
+.main-left-right h2 {
+    font-size: 3rem;
+}
+
+.main-right-top h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.main-right-top p {
+    color: white;
+}
+
+.main-right-bottom {
+    padding-left: 5rem;
+    padding-top: 4rem;
+}
+
+.main-right-bottom .weather {
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.main-right-bottom .weather .pressure-line {
+    width: 60%;
+    height: 2rem;
+    background-color: rgb(240, 103, 103);
+}
+
+.main-right-bottom .weather .rain-line {
+    width: 60%;
+    height: 2rem;
+    background-color: skyblue;
+}
+
+.main-right-bottom .weather .humidity-line {
+    width: 60%;
+    height: 2rem;
+    background-color: rgb(241, 188, 90);
+    position: relative;
+}
+
+.main-right-bottom .weather .wind-line {
+    width: 60%;
+    height: 2rem;
+    background-color: white;
+}
+
+.main-right-bottom .weather .temperature-line {
+    width: 60%;
+    height: 2rem;
+    background-color: rgb(153, 228, 153);
+}
+
+.main-right-bottom span{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+/* -----------------------------sign up page ------------------------------------------------- */
+
+.content .sign-up-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    /* gap: 2rem; */
+    /* flex-wrap: nowrap; */
+}
+
+.sign-up-content-left .sign-up-content-image img {
+    width: 50%;
+    /* padding-top: -5rem; */
+}
+
+.content .sign-up-content .sign-up-form {
+    /* border: 2px solid white; */
+    /* background-color: skyblue; */
+    padding-right: 20px;
+    /* width: 100%; */
+    flex-basis: 60%;
+    min-width: 60%;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 1rem black;
+}
+
+/* .content .sign-up-content .sign-up-form form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+} */
+
+.content .sign-up-content .sign-up-form form input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content .sign-up-content .sign-up-form form input[type=submit]{
+    background: rgb(17, 157, 204);
+    border: none;
+}
+
+/* .content .sign-up-content .sign-up-form form label {
+    color: white;
+    font-size: 1.2rem;
+} */

@@ -1,0 +1,118 @@
+body {
+    /* background-image: url('backgroundimage.jpeg'); */
+    /* box-sizing: border-box; */
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+main {
+    padding: .0rem 7% 2rem;
+    background-image: url('');
+}
+
+.login-content-left {
+    padding-top: 3rem;
+}
+
+
+.content .login-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    /* gap: 2rem; */
+    /* flex-wrap: nowrap; */
+}
+
+.login-content-topic h3 {
+    color: skyblue;
+    font-size: 3rem;
+}
+
+.login-content-topic h3 span {
+    color: skyblue;
+}
+
+.login-content-topic p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.login-content-topic p span {
+    color: skyblue;
+    font-size: 2rem;
+}
+
+.login-content-heading h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: -.6rem;
+    color: skyblue;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* .sign-up-content-heading {
+    text-align: center;
+} */
+
+.login-content-left .login-content-image img {
+    width: 50%;
+    /* padding-top: -5rem; */
+}
+
+.content .login-content .login-form {
+    /* border: 2px solid white; */
+    /* background-color: skyblue; */
+    padding-right: 20px;
+    /* width: 100%; */
+    flex-basis: 60%;
+    min-width: 60%;
+    padding: 3rem;
+    /* margin-top: 1rem; */
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 1rem black;
+}
+
+/* .content .sign-up-content .sign-up-form form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+} */
+
+.content .login-content .login-form form input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content .login-content .login-form form input[type=submit]{
+    background: rgb(17, 157, 204);
+    border: none;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 700;
+}
+
+.content .login-content .login-form form input:focus {
+    border: 2px solid grey;
+}
+
+/* .content .sign-up-content .sign-up-form form label {
+    color: white;
+    font-size: 1.2rem;
+} */
+
+form p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+form p a{
+    color: #a9d7ff;
+}
